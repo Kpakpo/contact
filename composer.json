@@ -1,0 +1,30 @@
+{
+    "name": "tarekq/contact",
+    "description": "This will generate contact forms on webpages for queries",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+        "name": "Tarekq",
+        "email": "tarek.quao@bewsys.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Tarekq\\Contact": "src/"
+        }
+    },
+
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Tarekq\\Contact\\ContactServiceProvider"
+            ]
+        }
+    }
+}
+
