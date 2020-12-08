@@ -1,6 +1,6 @@
 {
     "name": "tarekq/contact",
-    "description": "This will generate contact forms on webpages for queries",
+    "description": "This will generate contact forms on webpages and send queries to admin via email.",
     "type": "library",
     "license": "MIT",
     "authors": [
