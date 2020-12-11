@@ -11,6 +11,14 @@
         @csrf
         <p><input type="text" name="name" placeholder="Your Name"></p>
         <p><input type="email" name="email" id="" placeholder="Your valid email"></p>
+        <p>Message category:
+            <select name="category_choice" id="category_choice">
+                <option value="complaint">Complaint</option>
+                <option value="suggestion">Suggestion</option>
+                <option value="Enquiry">Enquiry</option>
+                <option value="product-feedback">Product Feedback</option>
+            </select>
+        </p>
         <p><textarea name="message" id="" cols="30" rows="10" placeholder="Your Query"></textarea>
         <div>
             <button type="submit" value="Submit">Submit</button>
