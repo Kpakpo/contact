@@ -19,7 +19,7 @@
                 <option value="product-feedback">Product Feedback</option>
             </select>
         </p>
-        
+    
         <p><textarea name="message" id="" cols="30" rows="10" placeholder="Your Query"></textarea>
         <div>
             <button type="submit" value="Submit">Submit</button>
